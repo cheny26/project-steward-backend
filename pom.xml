@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cheny</groupId>
-    <artifactId>springboot-init</artifactId>
+    <artifactId>project-steward-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-init</name>
-    <description>springboot-init</description>
+    <name>project-steward-backend</name>
+    <description>project-steward-backend</description>
     <properties>
         <java.version>17</java.version>
     </properties>
