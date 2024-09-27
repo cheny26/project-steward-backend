@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.cheny.projectSteward.mapper.AnnouncementMapper">
+<mapper namespace="com.cheny.projectsteward.mapper.AnnouncementMapper">
 
-    <resultMap id="BaseResultMap" type="com.cheny.projectSteward.model.entity.Announcement">
+    <resultMap id="BaseResultMap" type="com.cheny.projectsteward.model.entity.Announcement">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="title" column="title" jdbcType="VARCHAR"/>
             <result property="content" column="content" jdbcType="VARCHAR"/>

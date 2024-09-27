@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.cheny.projectSteward.mapper.TeacherMapper">
+<mapper namespace="com.cheny.projectsteward.mapper.TeacherMapper">
 
-    <resultMap id="BaseResultMap" type="com.cheny.projectSteward.model.entity.Teacher">
+    <resultMap id="BaseResultMap" type="com.cheny.projectsteward.model.entity.Teacher">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="employeeId" column="employee_id" jdbcType="VARCHAR"/>
             <result property="name" column="name" jdbcType="VARCHAR"/>
